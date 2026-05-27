@@ -13,7 +13,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: "https://e-mart-web-eight.vercel.app/"
+  origin: "https://ecms-web-two.vercel.app/",
 }));
 
 app.use(express.json());
